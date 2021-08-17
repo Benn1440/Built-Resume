@@ -1,0 +1,34 @@
+body {
+background-color:white;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.Here{ 
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(192, 196, 186);
+    border-radius: 50px;
+    
+}
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h4 {
+    color: rgb(189, 91, 62);
+}
+ul {
+    text-size-adjust: 5px;   
+}
+
+.Down {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(192, 196, 186);
+    padding: 10px;
+   border-radius: 50px;
+}
+img {
+    width: 70px;
+    height: 30px;
+    padding: 10px;
+}
