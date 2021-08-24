@@ -1,34 +1,103 @@
 body {
-background-color:white;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+background-color:rgba(36, 30, 26, 0.986);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#All {
+    padding: 30px;
+    margin: 20px;
+    border: solid 2px gray;
+    border-radius: 20px;
 }
 
 .Here{ 
     text-align: center;
     padding: 10px;
-    background-color: rgb(192, 196, 186);
-    border-radius: 50px;
-    
+    border: solid 2px gray;
+    border-radius: 20px;
+    background-image: url(Images/startup.jpg);
+    color: white;
 }
+    
+.hj {
+    padding: 30px;
+    margin: 30px;
+    background-color: rgb(233, 230, 186);
+    border: solid 2px gray;
+    border-radius: 20px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    border: solid 2px gray;
+    border-radius: 30px;
+    background-color: rgb(233, 230, 186);
+}
+
+
+.box1 {
+    background-color: black;
+    color: white; 
+}
+
 h3 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 h4 {
     color: rgb(189, 91, 62);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
 }
 ul {
     text-size-adjust: 5px;   
 }
 
+.container2 {
+    padding: 20px;
+    margin: 20px;
+    border: solid 2px rgb(199, 199, 199);
+    border-radius: 20px;
+    background-color: rgb(233, 230, 186);
+}
+   
+.BOX3 {
+    border: solid 2px gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+    background-color: rgb(233, 230, 186);
+}
+.box4 {
+    border: solid 2px gray;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 50px;
+    background-color: rgb(233, 230, 186);
+}
+
 .Down {
     text-align: center;
     margin-top: 50px;
-    background-color: rgb(192, 196, 186);
+    background-color: rgb(228, 196, 196);
+    color: white;
     padding: 10px;
    border-radius: 50px;
 }
+.Last {
+    text-align: center;
+    border: solid 2px gray;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 50px;
+    background-color: rgb(233, 230, 186);
+}
+
 img {
     width: 70px;
     height: 30px;
     padding: 10px;
+    margin: 5px;
+    
 }
