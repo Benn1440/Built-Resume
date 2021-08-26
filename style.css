@@ -8,6 +8,7 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 20px;
     border: solid 2px gray;
     border-radius: 20px;
+
 }
 
 .Here{ 
@@ -15,10 +16,16 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 10px;
     border: solid 2px gray;
     border-radius: 20px;
-    background-image: url(Images/startup.jpg);
-    color: white;
+    background-image: url(Images/innovation.jpg);
+    color: #fff;
+    max-width: 100%;
+    height: auto;
 }
-    
+.Here .IMG {
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+}
 .hj {
     padding: 30px;
     margin: 30px;
@@ -34,11 +41,10 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border-radius: 30px;
     background-color: rgb(233, 230, 186);
 }
-
-
-.box1 {
+.container2 .box1 {
+    padding: 15px;
     background-color: black;
-    color: white; 
+    color: white;
 }
 
 h3 {
@@ -77,6 +83,7 @@ ul {
     background-color: rgb(233, 230, 186);
 }
 
+
 .Down {
     text-align: center;
     margin-top: 50px;
@@ -98,6 +105,315 @@ img {
     width: 70px;
     height: 30px;
     padding: 10px;
-    margin: 5px;
-    
+    margin: 5px;    
+}
+@media screen and (max-width: 540px) {
+    #All {
+        width: 75%;
+        padding: 20px;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width: 540px) {
+    .container {
+        width: 75%;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 540px) {
+    .Down {
+        background-image: inherit;
+        background-position: center;
+        background-size: 50%;
+        background-color: rgb(240, 255, 242);
+    }
+}
+@media screen and (max-width: 520px) {
+    #All {
+        width: 75%;
+        padding: 20px;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width: 520px) {
+    .hj {
+        max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 520px) {
+    .container {
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 30px;
+        margin:auto;
+    }
+}
+@media screen and (max-width: 520px) {
+    .container2{
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 520px) {
+    .Down {
+        background-image: inherit;
+        background-position: center;
+        background-size: 50%;
+        background-color: rgb(240, 255, 242);
+    }
+}
+@media screen and (max-width: 520px) {
+    .BOX3 {
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 520px) {
+    .box4 {
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 520px) {
+    .Last{
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #All {
+        width: 75%;
+        padding: 20px;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 35px;
+     
+    }
+}
+@media screen and (max-width: 320px) {
+    .container2{
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 320px) {
+    .Down {
+        background-image: inherit;
+        background-position: center;
+        background-size: 50%;
+        background-color: rgb(240, 255, 242);
+    }
+}
+@media screen and (max-width: 320px) {
+    .BOX3 {
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 320px) {
+    .box4 {
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 320px) {
+    .Last{
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 360px) {
+    #All {
+        width: 75%;
+        padding: 20px;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width: 360px) {
+    .hj {
+        max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 360px) {
+    .container {
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin:auto;
+    }
+}
+@media screen and (max-width: 360px) {
+    .container2{
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 360px) {
+    .Down {
+        background-image: inherit;
+        background-position: center;
+        background-size: 50%;
+        background-color: rgb(240, 255, 242);
+    }
+}
+@media screen and (max-width: 360px) {
+    .BOX3 {
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 360px) {
+    .box4 {
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 360px) {
+    .Last{
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    #All {
+        width: 75%;
+        padding: 20px;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width: 375px) {
+    .container {
+        width: 75%;
+        flex-wrap: wrap;
+        padding: 35px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .container2{
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+.hj {
+    max-width: 100%; 
+    padding: 10px;
+    margin: auto;
+ }
+
+@media screen and (max-width: 375px) {
+    .Down {
+        background-image: inherit;
+        background-position: center;
+        background-size: 50%;
+        background-color: rgb(240, 255, 242);
+    }
+}
+@media screen and (max-width: 375px) {
+    .BOX3 {
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 375px) {
+    .box4 {
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 375px) {
+    .Last{
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 280px) {
+    #All {
+        width: 75%;
+        padding: 20px;
+        margin: auto;
+    }
+
+}
+@media screen and (max-width: 280px) {
+    .hj {
+        max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 280px) {
+    .container {
+        max-width: 100%;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin:auto;
+    }
+}
+@media screen and (max-width: 280px) {
+    .container2{
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 280px) {
+    .Down {
+        background-image: inherit;
+        background-position: center;
+        background-size: 50%;
+        background-color: rgb(240, 255, 242);
+    }
+}
+@media screen and (max-width: 280px) {
+    .BOX3 {
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 280px) {
+    .box4 {
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
+}
+@media screen and (max-width: 280px) {
+    .Last{
+       max-width: 100%; 
+        padding: 10px;
+        margin: auto;
+    }
 }
